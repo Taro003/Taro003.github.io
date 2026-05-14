@@ -1,0 +1,20 @@
+# Header navigation: order and links.
+
+main:
+  - title: "Publications"
+    title_zh: "发表成果"
+    url: /publications/
+
+  # - title: "Talks"
+  #   url: /talks/
+
+  # - title: "Teaching"
+  #   url: /teaching/
+
+  - title: "Projects"
+    title_zh: "项目经历"
+    url: /portfolio/
+
+  - title: "CV"
+    title_zh: "简历"
+    url: /cv/

@@ -1,0 +1,31 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %} data-page-title-en="{{ page.title | default: site.title | strip_html | escape_once }}" data-page-title-zh="{{ page.title_zh | default: page.title | default: site.title_zh | default: site.title | strip_html | escape_once }}" data-site-title-en="{{ site.title | strip_html | escape_once }}" data-site-title-zh="{{ site.title_zh | default: site.title | strip_html | escape_once }}" data-title-separator="{{ site.title_separator | default: '|' | escape_once }}">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    {{ content }}
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

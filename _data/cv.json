@@ -1,0 +1,142 @@
+{
+  "basics": {
+    "name": "Sichi Yan",
+    "email": "sichiYan@sjtu.edu.cn",
+    "phone": "",
+    "website": "https://Taro003.github.io",
+    "summary": "Master's student at Shanghai Jiao Tong University (SJTU). Research focus: robot locomotion and morphology–control co-design. Seeking RA positions and PhD programs in robotics.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Shanghai",
+      "countryCode": "CN",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "Taro003",
+        "url": "https://github.com/Taro003"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Research Internship",
+      "position": "Robotics Perception Intern",
+      "website": "https://www.viwistar.com/",
+      "startDate": "2024",
+      "endDate": "2025",
+      "summary": "Developed an end-to-end ROS2-based inference pipeline integrating a LoRA-adapted vision–language model with RGB-D sensing for near–real-time robotic scene understanding. Public materials omit customer-specific models, versions, and datasets.",
+      "highlights": [
+        "Adapted a general-purpose VLM with LoRA on an in-house dataset for domain-specific classification in laboratory automation (task labels and taxonomy omitted publicly).",
+        "Built and deployed a ROS2 service node on Linux for VLM inference from camera streams; exact OS/ROS distro and GPU stack omitted on the public site.",
+        "Designed the full data collection, annotation, model adaptation, and deployment workflow at a high level."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Shanghai Jiao Tong University (SJTU)",
+      "area": "Mechanical Engineering",
+      "studyType": "M.S.",
+      "startDate": "2024",
+      "endDate": "2027",
+      "gpa": null,
+      "courses": [
+        "Robot Locomotion",
+        "Reinforcement Learning",
+        "Optimization Methods",
+        "Robotic Systems"
+      ]
+    },
+    {
+      "institution": "Shanghai Jiao Tong University (SJTU)",
+      "area": "Mechanical Engineering",
+      "studyType": "B.E.",
+      "startDate": "2020",
+      "endDate": "2024",
+      "gpa": null,
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Simulation & Reinforcement Learning",
+      "level": "",
+      "keywords": ["Isaac Sim / IsaacLab", "MuJoCo", "PPO", "CMA-ES", "Sim-to-real transfer"]
+    },
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": ["Python", "C++"]
+    },
+    {
+      "name": "Robotics",
+      "level": "",
+      "keywords": ["ROS2", "Legged robot control", "Locomotion policy training", "Unitree Go2"]
+    },
+    {
+      "name": "Perception & AI",
+      "level": "",
+      "keywords": ["RGB-D cameras", "Vision-Language Models (VLM)", "LoRA fine-tuning", "Dataset collection & annotation"]
+    },
+    {
+      "name": "Hardware & Tools",
+      "level": "",
+      "keywords": ["CAD", "Basic hardware prototyping", "Git"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Robot Locomotion",
+      "keywords": ["Legged robots", "Terrain adaptation", "RL-based control"]
+    },
+    {
+      "name": "Morphology–Control Co-design",
+      "keywords": ["Evolutionary search", "Hardware–software co-optimization", "Adaptive morphology"]
+    },
+    {
+      "name": "Robot Perception",
+      "keywords": ["Vision-language models", "Sensor data collection", "Autonomous navigation"]
+    }
+  ],
+  "references": [],
+  "publications": [
+    {
+      "name": "Human2Nav: Learning Crowd Navigation from Human Videos across Robots via Feasibility-Guided Flow Matching",
+      "publisher": "IEEE International Conference on Robotics and Automation (ICRA 2026)",
+      "releaseDate": "2026-05-19",
+      "website": "/publication/2026-human2nav-icra",
+      "summary": "A data-efficient framework learning robot crowd navigation policies directly from passive human videos via BEV representation and conditional flow matching. Test-time feasibility-guided inference adapts trajectories to heterogeneous robot kinematics without retraining. Deployed on differential-drive and quadrupedal robots across four crowd scenarios."
+    },
+    {
+      "name": "CALA: Co-design with Accelerated Learning for Terrain-Specific Adaptive Locomotion",
+      "publisher": "Submitted",
+      "releaseDate": "2026-06-01",
+      "website": "",
+      "summary": "Submitted. A hierarchical bi-level co-design framework for terrain-specific adaptive locomotion."
+    }
+  ],
+  "presentations": [],
+  "teaching": [],
+  "portfolio": [
+    {
+      "name": "ROS2 VLM Inference",
+      "category": "portfolio",
+      "date": "2024",
+      "url": "https://Taro003.github.io/portfolio/ros2-vlm-inference/",
+      "description": "End-to-end pipeline for robotic scene understanding using a LoRA-adapted vision–language model in a ROS2 service node with RGB-D sensing, for laboratory automation. Customer-specific models, versions, and task labels are omitted in public copy.<br/>"
+    }
+  ]
+}
