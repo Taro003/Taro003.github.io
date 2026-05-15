@@ -1,6 +1,8 @@
 ---
 title: "ROS2 VLM Inference — Robotics Perception Internship"
+title_zh: "ROS2 VLM 推理系统 — 机器人感知实习"
 excerpt: "Real-time robotic scene understanding with a fine-tuned vision–language model deployed as a ROS2 service node during an industry internship."
+excerpt_zh: "实习期间完成的 ROS2 机器人感知系统：将视觉语言模型适配到 RGB-D 场景理解任务，并封装为近实时推理服务节点。"
 collection: portfolio
 permalink: /portfolio/ros2-vlm-inference/
 header:
@@ -8,9 +10,9 @@ header:
 ---
 
 <img src="{{ base_path }}/images/intern_viwstar/preview.png" alt="ROS2 VLM inference preview" style="width:100%;max-width:720px;border-radius:6px;margin:1em 0;" />
-*<span class="lang-en">ROS2 VLM inference project preview.</span><span class="lang-zh">ROS2 VLM 推理项目预览。</span>*
 
-<span class="lang-en">Internship at **Viwistar (慧智星晨)** — [viwistar.com](https://www.viwistar.com/). Technical stack, model choices, and datasets are described only at a high level below for confidentiality.</span><span class="lang-zh">实习单位：**Viwistar 慧智星晨** —— [viwistar.com](https://www.viwistar.com/)。以下仅作能力层面的概括，不涉及客户技术栈、模型与数据等保密细节。</span>
+
+<span class="lang-en">Internship at **Viwistar (慧智星晨)** — [viwistar.com](https://www.viwistar.com/). The project centered on bringing VLM-based scene understanding into a ROS2 robotic perception workflow.</span><span class="lang-zh">实习单位：**Viwistar 慧智星晨** —— [viwistar.com](https://www.viwistar.com/)。项目重点是将基于视觉语言模型的场景理解能力接入 ROS2 机器人感知流程。</span>
 
 <div class="lang-en" markdown="1">
 
@@ -19,13 +21,13 @@ An internship project that integrates a **fine-tuned vision–language model (VL
 ## System Overview
 
 **1. Data collection.**  
-In-house scripts capture and label camera frames, bucket them by task-relevant categories, and export a structured training dataset (format and taxonomy are intentionally not specified here).
+Built scripts to capture and label RGB-D camera frames, organize them by task-relevant categories, and export structured datasets for model adaptation.
 
 **2. VLM adaptation.**  
-A general-purpose VLM is adapted with **LoRA** on that dataset so the model fits the domain without full fine-tuning of the backbone. Training uses a CUDA-enabled Linux workstation; hardware and framework versions are omitted.
+A general-purpose VLM is adapted with **LoRA** on collected data so the model fits domain-specific scene understanding tasks without full fine-tuning of the backbone.
 
 **3. ROS2 deployment.**  
-The adapted model runs as a ROS2 node that exposes a trigger-based interface: grab a frame, run inference, and publish compact results for the rest of the stack. Distro and OS minor versions are omitted.
+The adapted model runs as a ROS2 node that exposes a trigger-based interface: grab a frame, run inference, and publish compact results for downstream robotic logic.
 
 ## Key technologies
 
@@ -42,13 +44,13 @@ The adapted model runs as a ROS2 node that exposes a trigger-based interface: gr
 ## 系统框架
 
 **1. 数据采集**  
-使用自研脚本完成图像采集与标注，按任务相关类别归档，并导出为结构化训练数据（具体目录命名、类别划分与数据规模不在此列出）。
+使用自研脚本完成 RGB-D 图像采集与标注，按任务相关类别归档，并导出为用于模型适配的结构化训练数据。
 
 **2. VLM 适配**  
-在自建数据上对通用 VLM 采用 **LoRA** 进行参数高效微调，在不全量重训骨干网络的前提下适配领域任务。训练在配备 NVIDIA GPU 的 Linux 工作站上完成；具体硬件型号、CUDA / 驱动小版本号等略去。
+在采集数据上对通用 VLM 采用 **LoRA** 进行参数高效微调，在不全量重训骨干网络的前提下适配领域场景理解任务。
 
 **3. ROS2 部署**  
-将适配后的模型封装为 ROS2 节点，提供触发式调用：抓取一帧、执行推理、向其余栈发布紧凑结果。具体 ROS2 发行版与 Ubuntu 小版本略去。
+将适配后的模型封装为 ROS2 节点，提供触发式调用：抓取一帧、执行推理，并向下游机器人逻辑发布紧凑结果。
 
 ## 关键技术
 

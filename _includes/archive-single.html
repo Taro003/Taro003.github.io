@@ -7,14 +7,21 @@
 {% endif %}
 {% assign teaser_first_char = teaser | slice: 0, 1 %}
 
-{% if post.id %}
+{% if post.title_zh %}
+  {% capture title %}<span class="lang-en">{{ post.title }}</span><span class="lang-zh">{{ post.title_zh }}</span>{% endcapture %}
+{% elsif post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+{% if post.excerpt_zh %}
+  {% capture excerpt_text %}<span class="lang-en">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</span><span class="lang-zh">{{ post.excerpt_zh | markdownify | remove: "<p>" | remove: "</p>" }}</span>{% endcapture %}
+{% elsif post.excerpt %}
+  {% assign excerpt_text = post.excerpt | markdownify | remove: "<p>" | remove: "</p>" %}
+{% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+<div class="{{ include.type | default: "list" }}__item"{% unless include.type == "grid" %} style="clear: both;"{% endunless %}>
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork"{% unless include.type == "grid" %} style="overflow: auto;"{% endunless %}>
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -66,9 +73,9 @@
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    <p class="archive__item-excerpt" itemprop="description">{{ excerpt_text }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    <p class="archive__item-excerpt" itemprop="description">{{ excerpt_text }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p>
     {% endif %}
     
     {% if post.citation and post.slidesurl and post.bibtexurl %}

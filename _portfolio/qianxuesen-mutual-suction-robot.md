@@ -1,6 +1,8 @@
 ---
 title: "Mutual-Suction Robot for Large Surface Part Machining"
+title_zh: "面向大型面零件加工的对吸式作业机器人"
 excerpt: "Variable-configuration wheel-leg parallel robot (6-RRRPRR) with bistable electromagnetic suction for aerospace thin-wall skin machining"
+excerpt_zh: "面向航空航天薄壁蒙皮加工的 6-RRRPRR 变构型轮足并联机器人，结合双稳态电磁吸附与关节锁定设计"
 collection: portfolio
 permalink: /portfolio/qianxuesen-mutual-suction-robot/
 header:

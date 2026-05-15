@@ -28,8 +28,8 @@ redirect_from:
 ## Internship Experience
 
 **Robotics Perception Intern** — [Viwistar (慧智星晨)](https://www.viwistar.com/) (2024 – 2025) — [project page]({{ base_path }}/portfolio/ros2-vlm-inference/)
-* Built an end-to-end pipeline integrating a LoRA-adapted vision–language model with a ROS2 service node for near–real-time scene understanding with an RGB-D camera (public write-up omits customer-specific models, versions, and datasets).
-* Covered in-house data collection, adapter training, and ROS2 deployment on Linux; stack details omitted on the public site for confidentiality.
+* Built an end-to-end pipeline integrating a LoRA-adapted vision–language model with a ROS2 service node for near–real-time scene understanding with an RGB-D camera.
+* Covered RGB-D data collection, dataset organization, adapter training, and Linux-based ROS2 deployment.
 
 ## Selected Projects
 
@@ -73,7 +73,7 @@ redirect_from:
 ## 实习经历
 **机器人感知实习生** — [Viwistar 慧智星晨](https://www.viwistar.com/)（2024 – 2025）— [项目详情]({{ base_path }}/portfolio/ros2-vlm-inference/)
 * 构建端到端流水线，将经 LoRA 适配的视觉语言模型集成为 ROS2 服务节点，结合 RGB-D 相机实现近实时场景理解。
-* 覆盖自建数据采集、适配器训练及 Linux 上 ROS2 部署；具体软硬件栈在网站从略以符合保密要求。
+* 覆盖 RGB-D 数据采集、数据集整理、适配器训练及 Linux 上的 ROS2 部署。
 
 ## 代表性项目
 

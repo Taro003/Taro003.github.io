@@ -27,11 +27,11 @@
       "website": "https://www.viwistar.com/",
       "startDate": "2024",
       "endDate": "2025",
-      "summary": "Developed an end-to-end ROS2-based inference pipeline integrating a LoRA-adapted vision–language model with RGB-D sensing for near–real-time robotic scene understanding. Public materials omit customer-specific models, versions, and datasets.",
+      "summary": "Developed an end-to-end ROS2-based inference pipeline integrating a LoRA-adapted vision–language model with RGB-D sensing for near–real-time robotic scene understanding.",
       "highlights": [
-        "Adapted a general-purpose VLM with LoRA on an in-house dataset for domain-specific classification in laboratory automation (task labels and taxonomy omitted publicly).",
-        "Built and deployed a ROS2 service node on Linux for VLM inference from camera streams; exact OS/ROS distro and GPU stack omitted on the public site.",
-        "Designed the full data collection, annotation, model adaptation, and deployment workflow at a high level."
+        "Adapted a general-purpose VLM with LoRA on collected RGB-D data for domain-specific scene understanding in laboratory automation.",
+        "Built and deployed a ROS2 service node on Linux for VLM inference from camera streams.",
+        "Designed the full data collection, annotation, model adaptation, and deployment workflow."
       ]
     }
   ],
@@ -136,7 +136,7 @@
       "category": "portfolio",
       "date": "2024",
       "url": "https://Taro003.github.io/portfolio/ros2-vlm-inference/",
-      "description": "End-to-end pipeline for robotic scene understanding using a LoRA-adapted vision–language model in a ROS2 service node with RGB-D sensing, for laboratory automation. Customer-specific models, versions, and task labels are omitted in public copy.<br/>"
+      "description": "End-to-end pipeline for robotic scene understanding using a LoRA-adapted vision–language model in a ROS2 service node with RGB-D sensing, for laboratory automation.<br/>"
     }
   ]
 }
