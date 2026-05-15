@@ -4,11 +4,11 @@ excerpt: "Real-time robotic scene understanding with a fine-tuned vision–langu
 collection: portfolio
 permalink: /portfolio/ros2-vlm-inference/
 header:
-  teaser: /images/500x300.png
+  teaser: intern_viwstar/preview.png
 ---
 
-<img src="/images/500x300.png" alt="Placeholder for ROS2 VLM inference demo" style="width:100%;max-width:720px;border-radius:6px;margin:1em 0;" />
-*<span class="lang-en">Figure placeholder — to be replaced with a demo or system diagram when available.</span><span class="lang-zh">图片占位——待替换为演示图 / 系统框图。</span>*
+<img src="{{ base_path }}/images/intern_viwstar/preview.png" alt="ROS2 VLM inference preview" style="width:100%;max-width:720px;border-radius:6px;margin:1em 0;" />
+*<span class="lang-en">ROS2 VLM inference project preview.</span><span class="lang-zh">ROS2 VLM 推理项目预览。</span>*
 
 <span class="lang-en">Internship at **Viwistar (慧智星晨)** — [viwistar.com](https://www.viwistar.com/). Technical stack, model choices, and datasets are described only at a high level below for confidentiality.</span><span class="lang-zh">实习单位：**Viwistar 慧智星晨** —— [viwistar.com](https://www.viwistar.com/)。以下仅作能力层面的概括，不涉及客户技术栈、模型与数据等保密细节。</span>
 

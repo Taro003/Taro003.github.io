@@ -1,18 +1,18 @@
 ---
 title: "Mutual-Suction Robot for Large Surface Part Machining"
-excerpt: "Variable-configuration wheel-leg parallel robot (6-RRRPRR) with bistable electromagnetic suction for aerospace thin-wall skin machining — Qian Xuesen Cup entry."
+excerpt: "Variable-configuration wheel-leg parallel robot (6-RRRPRR) with bistable electromagnetic suction for aerospace thin-wall skin machining"
 collection: portfolio
 permalink: /portfolio/qianxuesen-mutual-suction-robot/
 header:
-  teaser: /images/500x300.png
+  teaser: graduate_senior_project/preview.png
 ---
 
-<img src="/images/500x300.png" alt="Placeholder for mutual-suction robot overview figure" style="width:100%;max-width:720px;border-radius:6px;margin:1em 0;" />
-*<span class="lang-en">Figure placeholder — to be replaced with the robot CAD / prototype photo.</span><span class="lang-zh">图片占位——待替换为机器人 CAD 图 / 实物图。</span>*
+<img src="{{ base_path }}/images/graduate_senior_project/preview.png" alt="Mutual-suction robot overview" style="width:100%;max-width:720px;border-radius:6px;margin:1em 0;" />
+*<span class="lang-en">Mutual-suction robot project preview.</span><span class="lang-zh">对吸式作业机器人项目预览。</span>*
 
 <div class="lang-en" markdown="1">
 
-**Undergraduate Research Project — 7th Qian Xuesen Cup (SJTU)**  
+**Undergraduate Research Project (SJTU)**  
 Team: Xiaoyi Tai, **Sichi Yan**, Da Huang, Chang Liu · Advisors: Prof. Bintang Yang, Prof. Yikun Yang  
 Original title: *A Mutual Suction Robot for Machining and Assembling Large Surface Parts*
 
@@ -40,7 +40,7 @@ Large aerospace thin-wall parts (aircraft skins, rocket tank walls) can exceed t
 
 <div class="lang-zh" markdown="1">
 
-**本科科研项目 — 上海交通大学第七届钱学森杯**  
+**本科科研项目 — 上海交通大学**  
 团队成员：邰潇逸、**鄢思迟**、黄达、刘畅 · 指导教师：杨斌堂 教授、杨诣坤 教授  
 原题：《面向大型面零件加工装配的对吸式作业机器人》
 
@@ -48,7 +48,7 @@ Large aerospace thin-wall parts (aircraft skins, rocket tank walls) can exceed t
 
 航空航天大型薄壁零件（如飞机蒙皮、火箭贮箱壁板）尺寸可达数十米、开敞性差、壁薄刚度低，其制造模式正从"**固定母机、移动零件**"向"**固定零件、移动母机**"转变。本项目面向此类场景，研制一套**集成化、轻型化、多自由度自行走精密加工平台**，实现薄壁壁面的稳定吸附、全向行走、越障与末端多自由度精密调姿。
 
-## 主要贡献
+## 项目内容
 
 **6-RRRPRR 变构型轮足并联机器人。** 以 Stewart 平台为基础，将支链两端的球副拆分为独立转动副，使单个关节可**部分锁定**，实现刚性 6 自由度调姿模式与轮式行走模式切换。采用**螺旋理论 + 修正 Grübler-Kutzbach 公式**进行自由度分析，验证平台 6 自由度与单足 3 自由度运动能力。
 
@@ -61,7 +61,6 @@ Large aerospace thin-wall parts (aircraft skins, rocket tank walls) can exceed t
 ## 项目成果
 
 - 完成整套平台构型、曲面运动学、双稳态驱动器的理论设计与优化
-- 在指导老师指导下完成实物样机装配，实物测试进行中
-- 以团队形式提交至第七届钱学森杯大学生课外学术科技作品竞赛
+- 在指导老师指导下完成实物样机装配
 
 </div>

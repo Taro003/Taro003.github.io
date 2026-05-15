@@ -4,10 +4,15 @@ excerpt: "High–DOF bionic operating handle for a cardiac tricuspid valve inter
 collection: portfolio
 permalink: /portfolio/graduate-thesis-tricuspid-handle/
 header:
-  teaser: /images/graduate-thesis.png
+  teaser: graduate_paper/overview.png
 ---
 
-<img src="/images/graduate-thesis.png" alt="Tricuspid valve simulator handle overview" style="width:100%;max-width:720px;border-radius:6px;margin:1em 0;" />
+<img src="{{ base_path }}/images/graduate_paper/overview.png" alt="Tricuspid valve simulator handle overview" style="width:100%;max-width:720px;border-radius:6px;margin:1em 0;" />
+
+<video width="100%" controls preload="metadata" playsinline style="margin: 1.5em 0; border-radius: 6px;">
+  <source src="{{ base_path }}/files/graduate_paper_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 <div class="lang-en" markdown="1">
 

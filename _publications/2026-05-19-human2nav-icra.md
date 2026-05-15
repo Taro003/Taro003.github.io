@@ -8,7 +8,12 @@ date: 2026-05-19
 venue: 'IEEE International Conference on Robotics and Automation (ICRA 2026)'
 paperurl: '/files/human2nav_icra26.pdf'
 citation: 'Shenghong Zhang, Junjie Chen, <b>Sichi Yan</b>, Yutong Ban, and Xiao Li. (2026). &quot;Human2Nav: Learning Crowd Navigation from Human Videos across Robots via Feasibility-Guided Flow Matching.&quot; <i>IEEE ICRA 2026</i>.'
+header:
+  teaser: ICRA26/preview.png
 ---
+
+<img src="{{ base_path }}/images/ICRA26/overall_frame.png" alt="Human2Nav overall framework" style="width:100%;max-width:960px;border-radius:6px;margin:1.5em 0;" />
+*<span class="lang-en">Overall framework of Human2Nav, from human-video BEV processing to feasibility-guided robot navigation.</span><span class="lang-zh">Human2Nav 总体框架，从人类视频 BEV 处理到可行性引导的机器人导航。</span>*
 
 <video width="100%" controls preload="metadata" playsinline style="margin: 1.5em 0; border-radius: 6px;">
   <source src="{{ base_path }}/files/human2nav_video.mp4" type="video/mp4">

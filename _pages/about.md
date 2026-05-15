@@ -11,17 +11,17 @@ redirect_from:
 {% include base_path %}
 
 <div class="lang-en" markdown="1">
-I am a Master's student at the **School of Mechanical Engineering, Shanghai Jiao Tong University (SJTU)**, advised by [Prof. Xiao Li](https://scholar.google.com/citations?user=dGZ3vH8AAAAJ&hl=en), [LXLab](https://space.bilibili.com/42031470). I received my B.E. in Mechanical Engineering from Shanghai Jiao Tong University in 2024.
+I am a second-year Master's student at the **School of Mechanical Engineering, Shanghai Jiao Tong University (SJTU)**, advised by [Prof. Xiao Li](https://scholar.google.com/citations?user=dGZ3vH8AAAAJ&hl=en), [LXLab](https://space.bilibili.com/42031470). I received my B.E. in Mechanical Engineering from Shanghai Jiao Tong University in 2024.
 
-My research focuses on **robot locomotion** and **morphology–control co-design** — jointly optimizing robot hardware (limb geometry, actuation) and learning-based control policies for robust real-world performance. I am also interested in robot perception and sensor-based data collection for autonomous systems.
+My research focuses on **robot locomotion** and **morphology–control co-design** — jointly optimizing robot hardware (limb geometry, actuation) and reinforcement-learning-based control policies for robust real-world performance. I have hands-on experience with robot hardware, real-robot deployment, and real-world data collection, and I am also interested in robot perception for autonomous systems.
 
 I am actively seeking **Research Assistant / Intern** positions and plan to apply for **PhD programs in robotics**. I am eager to contribute to labs working on legged robots, locomotion control, and hardware–algorithm co-design.
 </div>
 
 <div class="lang-zh" markdown="1">
-我是鄢思迟，**上海交通大学机械与动力工程学院**硕士研究生，导师为[李潇](https://me.sjtu.edu.cn/teacher_directory1/lixiao.html)，所属实验室：[LXLab](https://space.bilibili.com/42031470)。2024 年本科毕业于上交大机械工程专业。
+我是鄢思迟，**上海交通大学机械与动力工程学院**硕士二年级在读，导师为[李潇](https://me.sjtu.edu.cn/teacher_directory1/lixiao.html)，所属实验室：[LXLab](https://space.bilibili.com/42031470)。2024 年本科毕业于上交大机械工程专业。
 
-我的研究方向为**机器人运动控制**与**形态–控制协同设计**——联合优化机器人硬件（肢体结构、驱动方式）与基于学习的控制策略，以实现鲁棒的真实世界性能。我同时对机器人感知和面向自主系统的传感数据采集方向有研究积累。
+我的研究方向为**机器人运动控制**与**形态–控制协同设计**——联合优化机器人硬件（肢体结构、驱动方式）与基于强化学习的控制策略，以实现鲁棒的真实世界性能。我具备机器人硬件、实机部署与实机数据采集经验，也对面向自主系统的机器人感知方向有研究积累。
 
 目前积极寻找**科研助理 / 实习**机会，并计划申请机器人方向的**博士项目**。欢迎从事腿足机器人、运动控制与软硬件协同设计研究的实验室联系我。
 </div>
@@ -30,9 +30,9 @@ I am actively seeking **Research Assistant / Intern** positions and plan to appl
 
 ## <span class="lang-en">Research Interests</span><span class="lang-zh">研究方向</span>
 
-- <span class="lang-en">**Robot locomotion:** Dynamic walking and running, terrain adaptation, RL-based locomotion control for legged systems.</span><span class="lang-zh">**机器人运动控制：** 动态行走与奔跑、地形自适应、基于强化学习的腿足机器人控制。</span>
+- <span class="lang-en">**Robot locomotion:** Dynamic walking and running, terrain adaptation, reinforcement-learning-based locomotion control, and sim-to-real transfer for legged systems.</span><span class="lang-zh">**机器人运动控制：** 动态行走与奔跑、地形自适应、基于强化学习的腿足机器人控制与 sim-to-real 迁移。</span>
 - <span class="lang-en">**Morphology–control co-design:** Joint optimization of mechanism design (limb geometry, actuation) and control policies using evolutionary search and reinforcement learning.</span><span class="lang-zh">**形态–控制协同设计：** 利用进化搜索与强化学习联合优化机构设计（肢体几何、驱动）与控制策略。</span>
-- <span class="lang-en">**Robot perception:** Visual and sensor-based perception for autonomous navigation; VLM-based scene understanding for robotic systems.</span><span class="lang-zh">**机器人感知：** 面向自主导航的视觉与传感器感知；基于视觉语言模型的场景理解。</span>
+- <span class="lang-en">**Real-robot systems and perception:** Hardware integration, real-robot deployment, sensor-based data collection, and VLM-based scene understanding for robotic systems.</span><span class="lang-zh">**实机系统与机器人感知：** 机器人硬件集成、实机部署、传感器数据采集，以及基于视觉语言模型的场景理解。</span>
 
 ---
 
@@ -41,7 +41,7 @@ I am actively seeking **Research Assistant / Intern** positions and plan to appl
 <div class="exp-grid">
 
   <a class="exp-card" href="{{ base_path }}/publication/2026-human2nav-icra">
-    <div class="exp-thumb" data-placeholder="Image placeholder / 图片占位"></div>
+    <div class="exp-thumb has-image" style="background-image:url('{{ base_path }}/images/ICRA26/preview.png');" data-placeholder=""></div>
     <div class="exp-body">
       <div class="exp-title">
         <span class="lang-en">Human2Nav: Crowd Navigation from Human Videos</span>
@@ -58,7 +58,7 @@ I am actively seeking **Research Assistant / Intern** positions and plan to appl
   </a>
 
   <a class="exp-card" href="{{ base_path }}/publication/2026-cala-rcar">
-    <div class="exp-thumb" data-placeholder="Image placeholder / 图片占位"></div>
+    <div class="exp-thumb has-image" style="background-image:url('{{ base_path }}/images/RCAR26/preview.png');" data-placeholder=""></div>
     <div class="exp-body">
       <div class="exp-title">
         <span class="lang-en"> Co-design with Accelerated Learning for Terrain-Specific Adaptive Locomotion</span>
@@ -83,7 +83,7 @@ I am actively seeking **Research Assistant / Intern** positions and plan to appl
 <div class="exp-grid">
 
   <a class="exp-card" href="{{ base_path }}/portfolio/ros2-vlm-inference/">
-    <div class="exp-thumb" data-placeholder="Image placeholder / 图片占位"></div>
+    <div class="exp-thumb has-image" style="background-image:url('{{ base_path }}/images/intern_viwstar/preview.png');" data-placeholder=""></div>
     <div class="exp-body">
       <div class="exp-title">
         <span class="lang-en">ROS2 VLM Inference</span>
@@ -100,7 +100,7 @@ I am actively seeking **Research Assistant / Intern** positions and plan to appl
   </a>
 
   <a class="exp-card" href="{{ base_path }}/portfolio/graduate-thesis-tricuspid-handle/">
-    <div class="exp-thumb has-image" style="background-image:url('{{ base_path }}/images/graduate-thesis.png');" data-placeholder=""></div>
+    <div class="exp-thumb has-image" style="background-image:url('{{ base_path }}/images/graduate_paper/overview.png');" data-placeholder=""></div>
     <div class="exp-body">
       <div class="exp-title">
         <span class="lang-en">Tricuspid Valve Simulator Handle</span>
@@ -117,7 +117,7 @@ I am actively seeking **Research Assistant / Intern** positions and plan to appl
   </a>
 
   <a class="exp-card" href="{{ base_path }}/portfolio/qianxuesen-mutual-suction-robot/">
-    <div class="exp-thumb" data-placeholder="Image placeholder / 图片占位"></div>
+    <div class="exp-thumb has-image" style="background-image:url('{{ base_path }}/images/graduate_senior_project/preview.png');" data-placeholder=""></div>
     <div class="exp-body">
       <div class="exp-title">
         <span class="lang-en">Mutual-Suction Robot for Large Surface Parts</span>
@@ -139,24 +139,24 @@ I am actively seeking **Research Assistant / Intern** positions and plan to appl
 
 ## <span class="lang-en">Skills</span><span class="lang-zh">技能</span>
 
-- <span class="lang-en">**Simulation & RL:** Isaac Sim / IsaacLab, MuJoCo, PPO, CMA-ES, sim-to-real transfer</span><span class="lang-zh">**仿真与强化学习：** Isaac Sim / IsaacLab、MuJoCo、PPO、CMA-ES、sim-to-real 迁移</span>
-- <span class="lang-en">**Languages:** Python, C++</span><span class="lang-zh">**编程语言：** Python、C++</span>
-- <span class="lang-en">**Robotics:** ROS2, legged robot control, locomotion policy training</span><span class="lang-zh">**机器人：** ROS2、腿足机器人控制、运动策略训练</span>
-- <span class="lang-en">**Perception:** RGB-D cameras, VLM fine-tuning (LoRA), dataset collection & annotation</span><span class="lang-zh">**感知：** RGB-D 相机、VLM 微调（LoRA）、数据采集与标注</span>
-- <span class="lang-en">**Mechanical design:** CAD, parametric structural design, sensor integration, PCB & STM32 embedded systems</span><span class="lang-zh">**机械设计：** CAD、参数化结构设计、传感器集成、PCB 与 STM32 嵌入式开发</span>
+- <span class="lang-en">**Simulation & learning-based control:** Isaac Sim / IsaacLab, MuJoCo, reinforcement-learning locomotion training, sim-to-real transfer</span><span class="lang-zh">**仿真与学习控制：** Isaac Sim / IsaacLab、MuJoCo、强化学习运动策略训练、sim-to-real 迁移</span>
+- <span class="lang-en">**Robot systems & deployment:** ROS2, legged robot control, Linux-based real-robot deployment, real-world experiment and data-collection workflows</span><span class="lang-zh">**机器人系统与部署：** ROS2、腿足机器人控制、Linux 实机部署、实机实验与数据采集流程</span>
+- <span class="lang-en">**Perception & data:** RGB-D cameras, VLM adaptation, dataset collection and annotation</span><span class="lang-zh">**感知与数据：** RGB-D 相机、VLM 适配、数据集采集与标注</span>
+- <span class="lang-en">**Mechanical & hardware:** CAD, parametric structural design, sensor integration, PCB and STM32 embedded systems</span><span class="lang-zh">**机械与硬件：** CAD、参数化结构设计、传感器集成、PCB 与 STM32 嵌入式开发</span>
+- <span class="lang-en">**Programming & tools:** Python, C++, Linux (Ubuntu), Docker</span><span class="lang-zh">**编程与工具：** Python、C++、Linux（Ubuntu）、Docker</span>
 
 ---
 
 ## <span class="lang-en">Opportunities</span><span class="lang-zh">机会寻求</span>
 
 <div class="lang-en" markdown="1">
-I am available for **full-time RA / visiting researcher** positions (flexible start date, on-site or remote). I am planning to apply for **PhD programs in robotics** (locomotion, co-design, legged systems).
+I am available for **full-time RA / internship** positions (flexible start date, on-site or remote). I am planning to apply for **PhD programs in robotics** (locomotion, co-design, legged systems).
 
 Feel free to reach out: **sichiYan@sjtu.edu.cn**
 </div>
 
 <div class="lang-zh" markdown="1">
-欢迎提供**全职科研助理 / 访问学者**机会（入职时间灵活，线上线下均可）。目前正计划申请机器人方向**博士项目**（运动控制、协同设计、腿足系统）。
+欢迎提供**全职科研助理 / 实习**机会（入职时间灵活，线上线下均可）。目前正计划申请机器人方向**博士项目**（运动控制、协同设计、腿足系统）。
 
 联系方式：**sichiYan@sjtu.edu.cn**
 </div>
