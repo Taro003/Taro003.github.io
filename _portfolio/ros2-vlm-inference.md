@@ -10,7 +10,7 @@ header:
 ---
 
 <img src="{{ base_path }}/images/intern_viwstar/preview.png" alt="ROS2 VLM inference preview" style="width:100%;max-width:720px;border-radius:6px;margin:1em 0;" />
-
+*<span class="lang-en">ROS2 VLM inference project preview.</span><span class="lang-zh">ROS2 VLM 推理项目预览。</span>*
 
 <span class="lang-en">Internship at **Viwistar (慧智星晨)** — [viwistar.com](https://www.viwistar.com/). The project centered on bringing VLM-based scene understanding into a ROS2 robotic perception workflow.</span><span class="lang-zh">实习单位：**Viwistar 慧智星晨** —— [viwistar.com](https://www.viwistar.com/)。项目重点是将基于视觉语言模型的场景理解能力接入 ROS2 机器人感知流程。</span>
 
@@ -24,14 +24,14 @@ An internship project that integrates a **fine-tuned vision–language model (VL
 Built scripts to capture and label RGB-D camera frames, organize them by task-relevant categories, and export structured datasets for model adaptation.
 
 **2. VLM adaptation.**  
-A general-purpose VLM is adapted with **LoRA** on collected data so the model fits domain-specific scene understanding tasks without full fine-tuning of the backbone.
+Domain adaptation used **LoRA** fine-tuning via [**Qwen2-VL-Finetune**](https://github.com/2U1/Qwen2-VL-Finetune) (Lee, 2024), adapting a general-purpose VLM to task-specific scene understanding without full backbone retraining.
 
 **3. ROS2 deployment.**  
 The adapted model runs as a ROS2 node that exposes a trigger-based interface: grab a frame, run inference, and publish compact results for downstream robotic logic.
 
 ## Key technologies
 
-- **Model stack:** VLM + LoRA (`peft`, `transformers`-class tooling)
+- **Model stack:** VLM + LoRA via [Qwen2-VL-Finetune](https://github.com/2U1/Qwen2-VL-Finetune) (`peft`, `transformers`)
 - **Sensing:** RGB-D camera integrated through the vendor ROS driver stack
 - **Runtime:** ROS2 on Linux, Python-based node, NVIDIA GPU for offline training and on-line inference where required
 
@@ -47,14 +47,14 @@ The adapted model runs as a ROS2 node that exposes a trigger-based interface: gr
 使用自研脚本完成 RGB-D 图像采集与标注，按任务相关类别归档，并导出为用于模型适配的结构化训练数据。
 
 **2. VLM 适配**  
-在采集数据上对通用 VLM 采用 **LoRA** 进行参数高效微调，在不全量重训骨干网络的前提下适配领域场景理解任务。
+基于 [**Qwen2-VL-Finetune**](https://github.com/2U1/Qwen2-VL-Finetune)（Lee, 2024）对通用 VLM 进行 **LoRA** 参数高效微调，在不全量重训骨干网络的前提下适配领域场景理解任务。
 
 **3. ROS2 部署**  
 将适配后的模型封装为 ROS2 节点，提供触发式调用：抓取一帧、执行推理，并向下游机器人逻辑发布紧凑结果。
 
 ## 关键技术
 
-- **模型：** VLM + LoRA（`peft`、`transformers` 等常见工具链）
+- **模型：** VLM + LoRA，微调基于 [Qwen2-VL-Finetune](https://github.com/2U1/Qwen2-VL-Finetune)（`peft`、`transformers`）
 - **感知：** RGB-D 相机及厂商提供的 ROS 驱动集成
 - **运行环境：** Linux 上的 ROS2、Python 节点；训练与推理阶段使用 GPU 加速
 

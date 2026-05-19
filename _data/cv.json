@@ -4,7 +4,7 @@
     "email": "sichiYan@sjtu.edu.cn",
     "phone": "",
     "website": "https://Taro003.github.io",
-    "summary": "Master's student at Shanghai Jiao Tong University (SJTU). Research focus: robot locomotion and morphology–control co-design. Seeking RA positions and PhD programs in robotics.",
+    "summary": "M.S. candidate in Mechanical Engineering at Shanghai Jiao Tong University (SJTU). Research: legged-robot reinforcement learning, morphology–control co-design, and real-robot deployment. GPA 3.79/4.0 (rank 26/274). Seeking RA positions and PhD programs in robotics.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -29,9 +29,9 @@
       "endDate": "2025",
       "summary": "Developed an end-to-end ROS2-based inference pipeline integrating a LoRA-adapted vision–language model with RGB-D sensing for near–real-time robotic scene understanding.",
       "highlights": [
-        "Adapted a general-purpose VLM with LoRA on collected RGB-D data for domain-specific scene understanding in laboratory automation.",
-        "Built and deployed a ROS2 service node on Linux for VLM inference from camera streams.",
-        "Designed the full data collection, annotation, model adaptation, and deployment workflow."
+        "End-to-end pipeline: RGB-D data collection, LoRA fine-tuning of Qwen2.5-VL via Qwen2-VL-Finetune, and ROS2 service-node deployment.",
+        "Trigger-based ROS2 inference for near–real-time test-tube state recognition in laboratory automation.",
+        "Covered dataset generation, model adaptation, offline validation, and on-line deployment on Linux."
       ]
     }
   ],
@@ -40,9 +40,9 @@
       "institution": "Shanghai Jiao Tong University (SJTU)",
       "area": "Mechanical Engineering",
       "studyType": "M.S.",
-      "startDate": "2024",
-      "endDate": "2027",
-      "gpa": null,
+      "startDate": "2024-09",
+      "endDate": "2027-03",
+      "gpa": "3.79/4.0 (26/274)",
       "courses": [
         "Robot Locomotion",
         "Reinforcement Learning",
@@ -62,29 +62,29 @@
   ],
   "skills": [
     {
+      "name": "Programming & Tools",
+      "level": "",
+      "keywords": ["Python", "C++", "Linux (Ubuntu)", "MATLAB", "Git", "Docker"]
+    },
+    {
       "name": "Simulation & Reinforcement Learning",
       "level": "",
-      "keywords": ["Isaac Sim / IsaacLab", "MuJoCo", "PPO", "CMA-ES", "Sim-to-real transfer"]
+      "keywords": ["Isaac Lab / Isaac Sim", "Legged Gym", "MuJoCo", "PPO", "CMA-ES", "Sim-to-real", "Extreme-Parkour", "PIE"]
     },
     {
-      "name": "Programming",
+      "name": "Robotics Systems",
       "level": "",
-      "keywords": ["Python", "C++"]
+      "keywords": ["ROS2", "Legged robot control", "Real-robot deployment", "Data collection", "Unitree Go2"]
     },
     {
-      "name": "Robotics",
+      "name": "Perception & Data",
       "level": "",
-      "keywords": ["ROS2", "Legged robot control", "Locomotion policy training", "Unitree Go2"]
+      "keywords": ["Intel RealSense", "Livox Mid-360", "VLM", "LoRA", "Qwen2-VL-Finetune", "Dataset collection & annotation"]
     },
     {
-      "name": "Perception & AI",
+      "name": "Mechanical & Embedded",
       "level": "",
-      "keywords": ["RGB-D cameras", "Vision-Language Models (VLM)", "LoRA fine-tuning", "Dataset collection & annotation"]
-    },
-    {
-      "name": "Hardware & Tools",
-      "level": "",
-      "keywords": ["CAD", "Basic hardware prototyping", "Git"]
+      "keywords": ["SolidWorks", "STM32", "ANSYS", "CAD", "Sensor integration"]
     }
   ],
   "languages": [

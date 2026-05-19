@@ -36,6 +36,22 @@ Enabling robots to navigate safely and efficiently in dynamic, crowded environme
 
 ---
 
+## <span class="lang-en">My Contribution</span><span class="lang-zh">本人工作</span>
+
+<div class="lang-en" markdown="1">
+
+As a co-author, I focused on the **real-robot stack** for Human2Nav. I built **ROS2-based data acquisition** pipelines to log onboard sensing and navigation-related signals during experiments, and led **policy deployment on physical platforms**—integrating learned crowd-navigation policies into the ROS2 runtime and validating them on differential-drive and quadruped robots in multi-scenario crowd settings.
+
+</div>
+
+<div class="lang-zh" markdown="1">
+
+作为共同作者，我主要负责论文的**真机验证链路**：基于 **ROS2** 搭建数据采集与系统集成，记录实验过程中的机载传感与导航相关数据；并承担**学习策略的真机部署**，将训练所得人群导航策略接入 ROS2 运行环境，在差速与四足平台上于多种典型人群场景完成实物验证。
+
+</div>
+
+---
+
 ## <span class="lang-en">Key Ideas</span><span class="lang-zh">核心方法</span>
 
 <div class="lang-en" markdown="1">
