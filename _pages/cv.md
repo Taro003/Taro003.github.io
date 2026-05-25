@@ -22,11 +22,11 @@ redirect_from:
 
 **Graduate Researcher** — School of Mechanical Engineering, SJTU (2024 – present) · Advisor: Prof. Xiao Li
 
-### Morphology–Control Co-Design for Legged Locomotion in Complex Terrain (M.S. thesis topic)
+### CALA — Morphology–Control Co-Design for Legged Locomotion in Complex Terrain (RCAR 2026)
 
 * **Goal:** Enable legged robots to adapt to disaster-rescue terrains where a single fixed morphology cannot cover diverse geometric demands.
 * **Approach:** Hierarchical bi-level co-optimization—outer **CMA-ES** over continuous morphology parameters, inner rapid **PPO** fine-tuning of morphology-aware locomotion priors; unified parametric morphology model to avoid per-candidate asset regeneration.
-* **Outcome:** First author, **CALA** ([submitted]({{ base_path }}/publication/2026-cala-rcar)); validated on **Unitree Go2** and **Ant** across six terrain–platform settings; morphology-randomized pretraining outperforms fixed-morphology and from-scratch baselines, with stronger traversal and adaptability on composite sequential terrains.
+* **Outcome:** First author, **CALA** ([RCAR 2026, accepted]({{ base_path }}/publication/2026-cala-rcar)); validated on **Unitree Go2** and **Ant** across six terrain–platform settings; morphology-randomized pretraining outperforms fixed-morphology and from-scratch baselines, with stronger traversal and adaptability on composite sequential terrains.
 
 ### Human2Nav — Learning Crowd Navigation from Human Videos (ICRA 2026)
 
@@ -79,11 +79,11 @@ redirect_from:
 
 **研究生科研** — 上海交通大学机械与动力工程学院（2024 年至今）· 导师：李潇教授
 
-### 复杂地形下足式机器人形态与控制策略的协同设计（硕士课题）
+### CALA — 复杂地形下足式机器人形态与控制策略的协同设计（RCAR 2026）
 
 * **目标：** 面向灾难救援等复杂地形，解决固定机器人形态难以同时适应多类场景的问题。
 * **方法：** 分层双层协同优化——外层 **CMA-ES** 搜索连续形态参数，内层基于运动先验的 **PPO** 快速微调；统一参数化形态模型，避免逐候选形态重复建模。
-* **成果：** 第一作者 **CALA**（[在投]({{ base_path }}/publication/2026-cala-rcar)）；在 **Unitree Go2** 与 **Ant** 六种地形–平台组合上验证；形态随机化预训练优于固定形态与从零训练基线，复合序列地形穿越距离与适应性更优。
+* **成果：** 第一作者 **CALA**（[RCAR 2026，已接收]({{ base_path }}/publication/2026-cala-rcar)）；在 **Unitree Go2** 与 **Ant** 六种地形–平台组合上验证；形态随机化预训练优于固定形态与从零训练基线，复合序列地形穿越距离与适应性更优。
 
 ### 从人类视频学习机器人群体导航（ICRA 2026）
 

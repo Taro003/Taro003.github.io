@@ -61,15 +61,15 @@ I am actively seeking **Research Assistant / Intern** positions and plan to appl
     <div class="exp-thumb has-image" style="background-image:url('{{ base_path }}/images/RCAR26/preview.png');" data-placeholder=""></div>
     <div class="exp-body">
       <div class="exp-title">
-        <span class="lang-en"> Co-design with Accelerated Learning for Terrain-Specific Adaptive Locomotion</span>
-        <span class="lang-zh">机器人地形适应协同设计</span>
+        <span class="lang-en">CALA: Co-design with Accelerated Learning for Terrain-Specific Adaptive Locomotion</span>
+        <span class="lang-zh">CALA：机器人地形适应协同设计</span>
       </div>
       <div class="exp-meta">
-        <span class="lang-en">Submitted · first author</span>
-        <span class="lang-zh">在投 · 第一作者</span>
+        <span class="lang-en">RCAR 2026 · first author</span>
+        <span class="lang-zh">RCAR 2026 · 第一作者</span>
       </div>
-      <span class="exp-tag review">
-        <span class="lang-en">Submitted</span><span class="lang-zh">在投</span>
+      <span class="exp-tag accepted">
+        <span class="lang-en">Accepted</span><span class="lang-zh">已接收</span>
       </span>
     </div>
   </a>
