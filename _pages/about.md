@@ -82,6 +82,23 @@ I am actively seeking **Research Assistant / Intern** positions and plan to appl
 
 <div class="exp-grid">
 
+  <a class="exp-card" href="https://www.agibot.com/">
+    <div class="exp-thumb" data-placeholder="AGI"></div>
+    <div class="exp-body">
+      <div class="exp-title">
+        <span class="lang-en">Reinforcement Learning Locomotion Control</span>
+        <span class="lang-zh">强化学习运控实习</span>
+      </div>
+      <div class="exp-meta">
+        <span class="lang-en"><strong>AGIbot</strong> internship &middot; starting Jun 15, 2026</span>
+        <span class="lang-zh"><strong>AGIbot 智元机器人</strong>实习 &middot; 2026 年 6 月 15 日开始</span>
+      </div>
+      <span class="exp-tag intern">
+        <span class="lang-en">Internship</span><span class="lang-zh">实习</span>
+      </span>
+    </div>
+  </a>
+
   <a class="exp-card" href="{{ base_path }}/portfolio/ros2-vlm-inference/">
     <div class="exp-thumb has-image" style="background-image:url('{{ base_path }}/images/intern_viwstar/preview.png');" data-placeholder=""></div>
     <div class="exp-body">

@@ -22,6 +22,17 @@
   },
   "work": [
     {
+      "company": "AGIbot",
+      "position": "Reinforcement Learning Locomotion Control Intern",
+      "website": "https://www.agibot.com/",
+      "startDate": "2026-06-15",
+      "endDate": "Present",
+      "summary": "Working on reinforcement-learning-based locomotion control for robotic systems.",
+      "highlights": [
+        "Reinforcement-learning-based locomotion control."
+      ]
+    },
+    {
       "company": "Research Internship",
       "position": "Robotics Perception Intern",
       "website": "https://www.viwistar.com/",

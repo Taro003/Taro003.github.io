@@ -37,6 +37,10 @@ redirect_from:
 
 ## Internship Experience
 
+**Reinforcement Learning Locomotion Control Intern** - [AGIbot 智元机器人](https://www.agibot.com/) (starting Jun 15, 2026)
+
+* Working on reinforcement-learning-based locomotion control for robotic systems.
+
 **Robotics Perception Intern** — [Viwistar (慧智星晨)](https://www.viwistar.com/) (2024 – 2025) — [project page]({{ base_path }}/portfolio/ros2-vlm-inference/)
 
 * **Goal:** Near–real-time scene understanding for laboratory automation (e.g., test-tube state recognition) to support downstream robotic manipulation.
@@ -93,6 +97,10 @@ redirect_from:
 * **成果：** 共同作者 **Human2Nav**（[ICRA 2026，已接收]({{ base_path }}/publication/2026-human2nav-icra)）；成功率与数据效率优于 **ORCA**、**SARL** 等基线，支持跨平台部署。
 
 ## 实习经历
+
+**强化学习运控实习生** - [AGIbot 智元机器人](https://www.agibot.com/)（2026 年 6 月 15 日开始）
+
+* 从事基于强化学习的机器人运动控制相关工作。
 
 **机器人感知实习生** — [Viwistar 慧智星晨](https://www.viwistar.com/)（2024 – 2025）— [项目详情]({{ base_path }}/portfolio/ros2-vlm-inference/)
 
