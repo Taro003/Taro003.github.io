@@ -83,11 +83,11 @@ I am actively seeking **Research Assistant / Intern** positions and plan to appl
 <div class="exp-grid">
 
   <a class="exp-card" href="https://www.agibot.com/">
-    <div class="exp-thumb" data-placeholder="AGI"></div>
+    <div class="exp-thumb has-image" style="background-image:url('{{ base_path }}/images/agibot-x2.png');" data-placeholder=""></div>
     <div class="exp-body">
       <div class="exp-title">
-        <span class="lang-en">Reinforcement Learning Locomotion Control</span>
-        <span class="lang-zh">强化学习运控实习</span>
+        <span class="lang-en">Humanoid Loco-Manipulation</span>
+        <span class="lang-zh">人形机器人 Loco-Manipulation 实习</span>
       </div>
       <div class="exp-meta">
         <span class="lang-en"><strong>AGIbot</strong> internship &middot; starting Jun 15, 2026</span>

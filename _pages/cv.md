@@ -37,9 +37,9 @@ redirect_from:
 
 ## Internship Experience
 
-**Reinforcement Learning Locomotion Control Intern** - [AGIbot 智元机器人](https://www.agibot.com/) (starting Jun 15, 2026)
+**Humanoid Loco-Manipulation Intern** - [AGIbot 智元机器人](https://www.agibot.com/) (starting Jun 15, 2026)
 
-* Working on reinforcement-learning-based locomotion control for robotic systems.
+* Working on humanoid robot loco-manipulation.
 
 **Robotics Perception Intern** — [Viwistar (慧智星晨)](https://www.viwistar.com/) (2024 – 2025) — [project page]({{ base_path }}/portfolio/ros2-vlm-inference/)
 
@@ -98,9 +98,9 @@ redirect_from:
 
 ## 实习经历
 
-**强化学习运控实习生** - [AGIbot 智元机器人](https://www.agibot.com/)（2026 年 6 月 15 日开始）
+**人形机器人 Loco-Manipulation 实习生** - [AGIbot 智元机器人](https://www.agibot.com/)（2026 年 6 月 15 日开始）
 
-* 从事基于强化学习的机器人运动控制相关工作。
+* 从事人形机器人 loco-manipulation 相关工作。
 
 **机器人感知实习生** — [Viwistar 慧智星晨](https://www.viwistar.com/)（2024 – 2025）— [项目详情]({{ base_path }}/portfolio/ros2-vlm-inference/)
 
