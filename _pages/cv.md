@@ -51,7 +51,7 @@ redirect_from:
 
 * Working on whole-body loco-manipulation for humanoid robots, including multi-humanoid collaborative carrying.
 
-**Robotics Perception Intern** — [Viwistar (慧智星晨)](https://www.viwistar.com/) (2024 – 2025) — [project page]({{ base_path }}/portfolio/ros2-vlm-inference/)
+**Robotics Perception Intern** — [Viwistar (慧智星晨)](https://www.viwistar.com/) (Jun 2025 – Aug 2025) — [project page]({{ base_path }}/portfolio/ros2-vlm-inference/)
 
 * **Goal:** Near–real-time scene understanding for laboratory automation (e.g., test-tube state recognition) to support downstream robotic manipulation.
 * **Approach:** End-to-end pipeline—RGB-D **data collection & annotation**, **LoRA** fine-tuning of **Qwen2.5-VL** via [**Qwen2-VL-Finetune**](https://github.com/2U1/Qwen2-VL-Finetune), and **ROS2** service-node deployment with trigger-based inference.
@@ -122,7 +122,7 @@ redirect_from:
 
 * 从事人形机器人全身 loco-manipulation 研究，包括多人形机器人协作搬运。
 
-**机器人感知实习生** — [Viwistar 慧智星晨](https://www.viwistar.com/)（2024 – 2025）— [项目详情]({{ base_path }}/portfolio/ros2-vlm-inference/)
+**机器人感知实习生** — [Viwistar 慧智星晨](https://www.viwistar.com/)（2025 年 6 月 – 2025 年 8 月）— [项目详情]({{ base_path }}/portfolio/ros2-vlm-inference/)
 
 * **目标：** 面向实验室自动化机械臂场景，识别试管状态等任务相关异常，为下游流程提供感知判断。
 * **方法：** 端到端流程——**RGB-D** 图像采集与标注、基于 [**Qwen2-VL-Finetune**](https://github.com/2U1/Qwen2-VL-Finetune) 对 **Qwen2.5-VL** 进行 **LoRA** 微调、封装为 **ROS2** 触发式推理服务节点。
