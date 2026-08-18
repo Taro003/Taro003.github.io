@@ -9,6 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
+<div class="cv-download">
+  <a class="cv-download-btn" href="{{ base_path }}/files/resume_en.pdf" target="_blank">
+    <span class="lang-en">Download CV (EN)</span><span class="lang-zh">下载英文简历</span>
+  </a>
+  <a class="cv-download-btn" href="{{ base_path }}/files/resume_zh.pdf" target="_blank">
+    <span class="lang-en">Download CV (中文)</span><span class="lang-zh">下载中文简历</span>
+  </a>
+</div>
+
 <div class="lang-en" markdown="1">
 
 ## Education

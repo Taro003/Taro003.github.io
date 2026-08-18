@@ -191,3 +191,35 @@ html[data-theme="dark"] .exp-tag.thesis   { background: #252538; color: #9a9ad0;
 html[data-theme="dark"] .exp-tag.intern   { background: #1c2838; color: #6a9cd8; }
 html[data-theme="dark"] .exp-tag.award    { background: #301e26; color: #c9708a; }
 html[data-theme="dark"] .exp-tag.ongoing  { background: #1a2e28; color: #5cb8a0; }
+
+/* ── CV download buttons ── */
+.cv-download {
+  display: flex;
+  gap: 0.8em;
+  margin: 0 0 1.6em;
+  flex-wrap: wrap;
+}
+.cv-download-btn {
+  display: inline-block;
+  padding: 0.45em 1.1em;
+  border: 1.5px solid #4a7ebb;
+  border-radius: 6px;
+  font-size: 0.88em;
+  font-weight: 600;
+  color: #4a7ebb !important;
+  text-decoration: none !important;
+  transition: background 0.15s, color 0.15s;
+}
+.cv-download-btn:hover {
+  background: #4a7ebb;
+  color: #fff !important;
+}
+
+html[data-theme="dark"] .cv-download-btn {
+  border-color: #6a9cd8;
+  color: #6a9cd8 !important;
+}
+html[data-theme="dark"] .cv-download-btn:hover {
+  background: #6a9cd8;
+  color: #111 !important;
+}
