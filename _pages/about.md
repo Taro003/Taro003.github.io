@@ -11,19 +11,61 @@ redirect_from:
 {% include base_path %}
 
 <div class="lang-en" markdown="1">
-I am a second-year Master's student at the **School of Mechanical Engineering, Shanghai Jiao Tong University (SJTU)**, advised by [Prof. Xiao Li](https://scholar.google.com/citations?user=dGZ3vH8AAAAJ&hl=en), [LXLab](https://space.bilibili.com/42031470). I received my B.E. in Mechanical Engineering from Shanghai Jiao Tong University in 2024.
+I am a third-year Master's student at the **School of Mechanical Engineering, Shanghai Jiao Tong University (SJTU)**, advised by [Prof. Xiao Li](https://scholar.google.com/citations?user=dGZ3vH8AAAAJ&hl=en), [LXLab](https://space.bilibili.com/42031470). I received my B.E. in Mechanical Engineering from Shanghai Jiao Tong University in 2024.
 
-My research focuses on **robot locomotion** and **morphology–control co-design** — jointly optimizing robot hardware (limb geometry, actuation) and reinforcement-learning-based control policies for robust real-world performance. I have hands-on experience with robot hardware, real-robot deployment, and real-world data collection, and I am also interested in robot perception for autonomous systems.
+My research asks one question: **how should a robot's body and brain be designed together to act robustly in the real world?** I work across three connected directions — with hands-on experience in robot hardware, perceptive planning, real-robot deployment, and data collection.
+</div>
 
-I am actively seeking **Research Assistant / Intern** positions and plan to apply for **PhD programs in robotics**. I am eager to contribute to labs working on legged robots, locomotion control, and hardware–algorithm co-design.
+<div class="lang-en intro-grid">
+  <div class="intro-card">
+    <div class="intro-card-title">Legged-Robot Locomotion</div>
+    <div class="intro-card-desc">Reinforcement-learning control for reliable movement across challenging terrains.</div>
+  </div>
+  <div class="intro-card">
+    <div class="intro-card-title">Morphology–Control Co-Design</div>
+    <div class="intro-card-desc">Jointly optimizing hardware (limb geometry, actuation) and control policies, not in isolation.</div>
+  </div>
+  <div class="intro-card">
+    <div class="intro-card-title">Humanoid Loco-Manipulation</div>
+    <div class="intro-card-desc">Whole-body coordination so humanoids move and manipulate at once — even in teams.</div>
+  </div>
+</div>
+
+<div class="lang-en vision-block" markdown="1">
+**Long-term goal:** build embodied robots that adapt to the physical world — machines whose morphology, perception, and control co-evolve so they can walk, carry, and work alongside people in unstructured environments. This connects my past work on terrain-adaptive co-design and crowd navigation with my current efforts on humanoid loco-manipulation and scene-reconstruction-based co-design.
+</div>
+
+<div class="lang-en" markdown="1">
+I am actively seeking **Research Assistant / Intern** positions and plan to apply for **PhD programs in robotics**. I am eager to contribute to labs working on legged robots, humanoid loco-manipulation, locomotion control, and hardware–algorithm co-design.
 </div>
 
 <div class="lang-zh" markdown="1">
-我是鄢思迟，**上海交通大学机械与动力工程学院**硕士二年级在读，导师为[李潇](https://me.sjtu.edu.cn/teacher_directory1/lixiao.html)，所属实验室：[LXLab](https://space.bilibili.com/42031470)。2024 年本科毕业于上交大机械工程专业。
+我是鄢思迟，**上海交通大学机械与动力工程学院**硕士三年级在读，导师为[李潇](https://me.sjtu.edu.cn/teacher_directory1/lixiao.html)，所属实验室：[LXLab](https://space.bilibili.com/42031470)。2024 年本科毕业于上交大机械工程专业。
 
-我的研究方向为**机器人运动控制**与**形态–控制协同设计**——联合优化机器人硬件（肢体结构、驱动方式）与基于强化学习的控制策略，以实现鲁棒的真实世界性能。我具备机器人硬件、实机部署与实机数据采集经验，也对面向自主系统的机器人感知方向有研究积累。
+我的研究围绕一个核心问题：**机器人的"身体"与"大脑"应当如何协同设计，才能在真实世界中鲁棒地行动？**我在三个相互关联的方向上展开工作，并积累了机器人硬件、感知规划、实机部署与数据采集的经验。
+</div>
 
-目前积极寻找**科研助理 / 实习**机会，并计划申请机器人方向的**博士项目**。欢迎从事腿足机器人、运动控制与软硬件协同设计研究的实验室联系我。
+<div class="lang-zh intro-grid">
+  <div class="intro-card">
+    <div class="intro-card-title">腿足机器人运动控制</div>
+    <div class="intro-card-desc">基于强化学习的控制策略，让机器人在复杂地形上可靠运动。</div>
+  </div>
+  <div class="intro-card">
+    <div class="intro-card-title">形态–控制协同设计</div>
+    <div class="intro-card-desc">联合优化硬件（肢体结构、驱动方式）与控制策略，而非孤立设计。</div>
+  </div>
+  <div class="intro-card">
+    <div class="intro-card-title">人形机器人 Loco-Manipulation</div>
+    <div class="intro-card-desc">全身协调控制，让人形机器人边走边操作——甚至多机协作。</div>
+  </div>
+</div>
+
+<div class="lang-zh vision-block" markdown="1">
+**长期目标：** 构建能够适应物理世界的具身机器人——让形态、感知与控制协同演化，使机器人能够在非结构化环境中行走、搬运、与人协作。这将我过去在地形自适应协同设计与人群导航上的工作，与当前在人形机器人 loco-manipulation 和基于场景重建的协同设计上的探索串联在一起。
+</div>
+
+<div class="lang-zh" markdown="1">
+目前积极寻找**科研助理 / 实习**机会，并计划申请机器人方向的**博士项目**。欢迎从事腿足机器人、人形机器人 loco-manipulation、运动控制与软硬件协同设计研究的实验室联系我。
 </div>
 
 ---
@@ -32,6 +74,7 @@ I am actively seeking **Research Assistant / Intern** positions and plan to appl
 
 - <span class="lang-en">**Robot locomotion:** Dynamic walking and running, terrain adaptation, reinforcement-learning-based locomotion control, and sim-to-real transfer for legged systems.</span><span class="lang-zh">**机器人运动控制：** 动态行走与奔跑、地形自适应、基于强化学习的腿足机器人控制与 sim-to-real 迁移。</span>
 - <span class="lang-en">**Morphology–control co-design:** Joint optimization of mechanism design (limb geometry, actuation) and control policies using evolutionary search and reinforcement learning.</span><span class="lang-zh">**形态–控制协同设计：** 利用进化搜索与强化学习联合优化机构设计（肢体几何、驱动）与控制策略。</span>
+- <span class="lang-en">**Humanoid loco-manipulation:** Whole-body locomotion–manipulation coordination for humanoid robots, including multi-humanoid collaborative carrying.</span><span class="lang-zh">**人形机器人 loco-manipulation：** 人形机器人全身运动–操作协调控制，包括多人形机器人协作搬运。</span>
 - <span class="lang-en">**Real-robot systems and perception:** Hardware integration, real-robot deployment, sensor-based data collection, and VLM-based scene understanding for robotic systems.</span><span class="lang-zh">**实机系统与机器人感知：** 机器人硬件集成、实机部署、传感器数据采集，以及基于视觉语言模型的场景理解。</span>
 
 ---
@@ -76,6 +119,48 @@ I am actively seeking **Research Assistant / Intern** positions and plan to appl
 
 </div>
 
+
+---
+
+## <span class="lang-en">Ongoing Works</span><span class="lang-zh">正在进行的工作</span> <span class="lang-en">(Coming Soon)</span><span class="lang-zh">（敬请期待）</span>
+
+<div class="exp-grid">
+
+  <a class="exp-card" href="{{ base_path }}/portfolio/humanoid-collaborative-carrying/">
+    <div class="exp-thumb has-image" style="background-image:url('{{ base_path }}/images/co-carry/teamhoi_inference_c.gif');" data-placeholder=""></div>
+    <div class="exp-body">
+      <div class="exp-title">
+        <span class="lang-en">Multi-Humanoid Collaborative Carrying</span>
+        <span class="lang-zh">多人形机器人协作搬运</span>
+      </div>
+      <div class="exp-meta">
+        <span class="lang-en">Humanoid loco-manipulation · 2026 – present</span>
+        <span class="lang-zh">人形机器人 loco-manipulation · 2026 至今</span>
+      </div>
+      <span class="exp-tag ongoing">
+        <span class="lang-en">Ongoing</span><span class="lang-zh">进行中</span>
+      </span>
+    </div>
+  </a>
+
+  <a class="exp-card" href="{{ base_path }}/portfolio/codesign-perceptive-locomotion/">
+    <div class="exp-thumb has-image" style="background-image:url('{{ base_path }}/images/co-design/20260818-111825.png');" data-placeholder=""></div>
+    <div class="exp-body">
+      <div class="exp-title">
+        <span class="lang-en">Scene-Reconstruction-Based Morphology–Locomotion Co-Design</span>
+        <span class="lang-zh">基于场景重建的机器人形态–运动协同设计</span>
+      </div>
+      <div class="exp-meta">
+        <span class="lang-en">Co-design · perceptive locomotion · 2026 – present</span>
+        <span class="lang-zh">协同设计 · 感知运动 · 2026 至今</span>
+      </div>
+      <span class="exp-tag ongoing">
+        <span class="lang-en">Ongoing</span><span class="lang-zh">进行中</span>
+      </span>
+    </div>
+  </a>
+
+</div>
 ---
 
 ## <span class="lang-en">Experience &amp; Projects</span><span class="lang-zh">项目与经历</span>
