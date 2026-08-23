@@ -13,59 +13,59 @@ redirect_from:
 <div class="lang-en" markdown="1">
 I am a third-year Master's student at the **School of Mechanical Engineering, Shanghai Jiao Tong University (SJTU)**, advised by [Prof. Xiao Li](https://scholar.google.com/citations?user=dGZ3vH8AAAAJ&hl=en), [LXLab](https://space.bilibili.com/42031470). I received my B.E. in Mechanical Engineering from Shanghai Jiao Tong University in 2024.
 
-My research asks one question: **how should a robot's body and brain be designed together to act robustly in the real world?** I work across three connected directions — with hands-on experience in robot hardware, perceptive planning, real-robot deployment, and data collection.
+My research is rooted in **legged-robot locomotion** — teaching robots to move robustly in the real world through reinforcement learning — and extends to **humanoid loco-manipulation**, where locomotion and manipulation are coordinated as one whole-body problem. Along the way I also work on **morphology–control co-design**, using it as a tool to push locomotion performance further. I have hands-on experience with robot hardware, perceptive planning, real-robot deployment, and data collection.
 </div>
 
 <div class="lang-en intro-grid">
   <div class="intro-card">
     <div class="intro-card-title">Legged-Robot Locomotion</div>
-    <div class="intro-card-desc">Reinforcement-learning control for reliable movement across challenging terrains.</div>
-  </div>
-  <div class="intro-card">
-    <div class="intro-card-title">Morphology–Control Co-Design</div>
-    <div class="intro-card-desc">Jointly optimizing hardware (limb geometry, actuation) and control policies, not in isolation.</div>
+    <div class="intro-card-desc">Reinforcement-learning control for robust, agile movement across challenging terrains.</div>
   </div>
   <div class="intro-card">
     <div class="intro-card-title">Humanoid Loco-Manipulation</div>
     <div class="intro-card-desc">Whole-body coordination so humanoids move and manipulate at once — even in teams.</div>
   </div>
+  <div class="intro-card">
+    <div class="intro-card-title">Morphology–Control Co-Design</div>
+    <div class="intro-card-desc">Jointly optimizing hardware and control as a tool to push locomotion further.</div>
+  </div>
 </div>
 
 <div class="lang-en vision-block" markdown="1">
-**Long-term goal:** build embodied robots that adapt to the physical world — machines whose morphology, perception, and control co-evolve so they can walk, carry, and work alongside people in unstructured environments. This connects my past work on terrain-adaptive co-design and crowd navigation with my current efforts on humanoid loco-manipulation and scene-reconstruction-based co-design.
+**Long-term goal:** build legged and humanoid robots that move and act robustly in the physical world — machines that walk, climb, carry, and work alongside people in unstructured environments. This vision grows from my locomotion and co-design research into my current focus on humanoid loco-manipulation, where movement and manipulation become one capability.
 </div>
 
 <div class="lang-en" markdown="1">
-I am actively seeking **Research Assistant / Intern** positions and plan to apply for **PhD programs in robotics**. I am eager to contribute to labs working on legged robots, humanoid loco-manipulation, locomotion control, and hardware–algorithm co-design.
+I am actively seeking **Research Assistant / Intern** positions and plan to apply for **PhD programs in robotics**. I am eager to contribute to labs working on legged-robot locomotion, humanoid loco-manipulation, and hardware–algorithm co-design.
 </div>
 
 <div class="lang-zh" markdown="1">
 我是鄢思迟，**上海交通大学机械与动力工程学院**硕士三年级在读，导师为[李潇](https://me.sjtu.edu.cn/teacher_directory1/lixiao.html)，所属实验室：[LXLab](https://space.bilibili.com/42031470)。2024 年本科毕业于上交大机械工程专业。
 
-我的研究围绕一个核心问题：**机器人的"身体"与"大脑"应当如何协同设计，才能在真实世界中鲁棒地行动？**我在三个相互关联的方向上展开工作，并积累了机器人硬件、感知规划、实机部署与数据采集的经验。
+我的研究以**腿足机器人运动控制**为根基——通过强化学习让机器人在真实世界中鲁棒运动——并延伸到**人形机器人 loco-manipulation**，将移动与操作作为统一的全身协调问题来研究。在此过程中，我也以**形态–控制协同设计**为工具，进一步突破运动性能的边界。我具备机器人硬件、感知规划、实机部署与数据采集的经验。
 </div>
 
 <div class="lang-zh intro-grid">
   <div class="intro-card">
     <div class="intro-card-title">腿足机器人运动控制</div>
-    <div class="intro-card-desc">基于强化学习的控制策略，让机器人在复杂地形上可靠运动。</div>
-  </div>
-  <div class="intro-card">
-    <div class="intro-card-title">形态–控制协同设计</div>
-    <div class="intro-card-desc">联合优化硬件（肢体结构、驱动方式）与控制策略，而非孤立设计。</div>
+    <div class="intro-card-desc">基于强化学习的控制策略，让机器人在复杂地形上鲁棒、敏捷地运动。</div>
   </div>
   <div class="intro-card">
     <div class="intro-card-title">人形机器人 Loco-Manipulation</div>
     <div class="intro-card-desc">全身协调控制，让人形机器人边走边操作——甚至多机协作。</div>
   </div>
+  <div class="intro-card">
+    <div class="intro-card-title">形态–控制协同设计</div>
+    <div class="intro-card-desc">联合优化硬件与控制策略，作为突破运动性能的工具。</div>
+  </div>
 </div>
 
 <div class="lang-zh vision-block" markdown="1">
-**长期目标：** 构建能够适应物理世界的具身机器人——让形态、感知与控制协同演化，使机器人能够在非结构化环境中行走、搬运、与人协作。这将我过去在地形自适应协同设计与人群导航上的工作，与当前在人形机器人 loco-manipulation 和基于场景重建的协同设计上的探索串联在一起。
+**长期目标：** 构建能在物理世界中鲁棒移动与行动的腿足及人形机器人——让机器人能够在非结构化环境中行走、翻越、搬运、与人协作。这一愿景从我过去的运动控制与协同设计研究出发，延伸到我当前聚焦的人形机器人 loco-manipulation——让移动与操作成为一种统一的能力。
 </div>
 
 <div class="lang-zh" markdown="1">
-目前积极寻找**科研助理 / 实习**机会，并计划申请机器人方向的**博士项目**。欢迎从事腿足机器人、人形机器人 loco-manipulation、运动控制与软硬件协同设计研究的实验室联系我。
+目前积极寻找**科研助理 / 实习**机会，并计划申请机器人方向的**博士项目**。欢迎从事腿足机器人运动控制、人形机器人 loco-manipulation 与软硬件协同设计研究的实验室联系我。
 </div>
 
 ---
@@ -73,8 +73,8 @@ I am actively seeking **Research Assistant / Intern** positions and plan to appl
 ## <span class="lang-en">Research Interests</span><span class="lang-zh">研究方向</span>
 
 - <span class="lang-en">**Robot locomotion:** Dynamic walking and running, terrain adaptation, reinforcement-learning-based locomotion control, and sim-to-real transfer for legged systems.</span><span class="lang-zh">**机器人运动控制：** 动态行走与奔跑、地形自适应、基于强化学习的腿足机器人控制与 sim-to-real 迁移。</span>
-- <span class="lang-en">**Morphology–control co-design:** Joint optimization of mechanism design (limb geometry, actuation) and control policies using evolutionary search and reinforcement learning.</span><span class="lang-zh">**形态–控制协同设计：** 利用进化搜索与强化学习联合优化机构设计（肢体几何、驱动）与控制策略。</span>
 - <span class="lang-en">**Humanoid loco-manipulation:** Whole-body locomotion–manipulation coordination for humanoid robots, including multi-humanoid collaborative carrying.</span><span class="lang-zh">**人形机器人 loco-manipulation：** 人形机器人全身运动–操作协调控制，包括多人形机器人协作搬运。</span>
+- <span class="lang-en">**Morphology–control co-design:** Joint optimization of mechanism design (limb geometry, actuation) and control policies using evolutionary search and reinforcement learning.</span><span class="lang-zh">**形态–控制协同设计：** 利用进化搜索与强化学习联合优化机构设计（肢体几何、驱动）与控制策略。</span>
 - <span class="lang-en">**Real-robot systems and perception:** Hardware integration, real-robot deployment, sensor-based data collection, and VLM-based scene understanding for robotic systems.</span><span class="lang-zh">**实机系统与机器人感知：** 机器人硬件集成、实机部署、传感器数据采集，以及基于视觉语言模型的场景理解。</span>
 
 ---
