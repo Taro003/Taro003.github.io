@@ -127,7 +127,11 @@ I am actively seeking **Research Assistant / Intern** positions and plan to appl
 <div class="exp-grid">
 
   <a class="exp-card" href="{{ base_path }}/portfolio/humanoid-collaborative-carrying/">
-    <div class="exp-thumb has-image" style="background-image:url('{{ base_path }}/images/co-carry/teamhoi_inference_c.gif');" data-placeholder=""></div>
+    <div class="exp-thumb has-image">
+      <video autoplay muted loop playsinline preload="metadata" poster="{{ base_path }}/images/agibotdemo_2robot.jpg" aria-label="Two humanoid robots interacting with a shared object" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <source src="{{ base_path }}/files/agibotdemo_2robot.mp4" type="video/mp4">
+      </video>
+    </div>
     <div class="exp-body">
       <div class="exp-title">
         <span class="lang-en">Multi-Humanoid Collaborative Carrying</span>
@@ -167,7 +171,7 @@ I am actively seeking **Research Assistant / Intern** positions and plan to appl
 
 <div class="exp-grid">
 
-  <a class="exp-card" href="https://www.agibot.com/">
+  <a class="exp-card" href="{{ base_path }}/portfolio/humanoid-object-interaction/">
     <div class="exp-thumb has-image">
       <video autoplay muted loop playsinline preload="metadata" poster="{{ base_path }}/images/agibotdemo_2robot.jpg" aria-label="Two humanoid robots interacting with a shared object" style="width:100%;height:100%;object-fit:cover;display:block;">
         <source src="{{ base_path }}/files/agibotdemo_2robot.mp4" type="video/mp4">

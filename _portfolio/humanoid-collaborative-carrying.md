@@ -6,8 +6,16 @@ excerpt_zh: "面向多人形机器人协作搬运的人形机器人与物体交�
 collection: portfolio
 permalink: /portfolio/humanoid-collaborative-carrying/
 header:
-  teaser: co-carry/teamhoi_inference_c.gif
+  teaser: agibotdemo_2robot.jpg
 ---
+
+<video width="100%" controls playsinline preload="metadata" poster="{{ base_path }}/images/agibotdemo_2robot.jpg" style="max-width:720px;border-radius:6px;margin:1em 0;">
+  <source src="{{ base_path }}/files/agibotdemo_2robot.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+*<span class="lang-en">Real-robot demonstration of two humanoid robots interacting with a shared object.</span><span class="lang-zh">两个人形机器人与共享物体交互的实机演示。</span>*
+
+## <span class="lang-en">TeamHOI Simulation Reference</span><span class="lang-zh">TeamHOI 仿真参考</span>
 
 <img src="{{ base_path }}/images/co-carry/teamhoi_inference_c.gif" alt="TeamHOI simulation results" style="width:100%;max-width:720px;border-radius:6px;margin:1em 0;" />
 *<span class="lang-en">Simulation results from the [TeamHOI](https://github.com/sail-sg/TeamHOI) project (Lionar & Lee, CVPR 2026), which inspires this work.</span><span class="lang-zh">启发本工作的 [TeamHOI](https://github.com/sail-sg/TeamHOI) 项目仿真结果（Lionar & Lee, CVPR 2026）。</span>*
