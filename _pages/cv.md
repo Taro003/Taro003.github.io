@@ -23,7 +23,7 @@ redirect_from:
 ## Education
 
 * **M.S.** in Mechanical Engineering, Shanghai Jiao Tong University (SJTU), School of Mechanical Engineering · Sep 2024 – Mar 2027 (expected)
-  * Advisor: Prof. Xiao Li · Research: legged-robot **reinforcement learning**, **morphology–control co-design**, **humanoid loco-manipulation**, real-robot deployment
+  * Advisor: Prof. Xiao Li · Research: legged-robot **reinforcement learning**, **morphology–control co-design**, **humanoid object interaction**, real-robot deployment
   * **GPA 3.79 / 4.0** · Rank **26 / 274**
 * **B.E.** in Mechanical Engineering, Shanghai Jiao Tong University (SJTU) · Sep 2020 – Jul 2024
 
@@ -46,9 +46,9 @@ redirect_from:
 
 ## Ongoing Works
 
-**Multi-Humanoid Collaborative Carrying** — Humanoid loco-manipulation · 2026 – present — [project page]({{ base_path }}/portfolio/humanoid-collaborative-carrying/)
+**Multi-Humanoid Collaborative Carrying** — Humanoid object interaction · 2026 – present — [project page]({{ base_path }}/portfolio/humanoid-collaborative-carrying/)
 
-* Coordinated carrying and whole-body loco-manipulation across multiple humanoid robots.
+* Humanoid object interaction and coordinated carrying across multiple humanoid robots.
 
 **Scene-Reconstruction-Based Morphology–Locomotion Co-Design** — Co-design perceptive locomotion · 2026 – present — [project page]({{ base_path }}/portfolio/codesign-perceptive-locomotion/)
 
@@ -56,9 +56,9 @@ redirect_from:
 
 ## Internship Experience
 
-**Humanoid Loco-Manipulation Intern** — [AGIbot 智元机器人](https://www.agibot.com/) (Jun 2026 – present)
+**Humanoid Object Interaction Intern** — [AGIbot 智元机器人](https://www.agibot.com/) (Jun 2026 – present)
 
-* Working on whole-body loco-manipulation for humanoid robots, including multi-humanoid collaborative carrying.
+* Working on humanoid object interaction, including multi-humanoid collaborative carrying.
 
 **Robotics Perception Intern** — [Viwistar (慧智星晨)](https://www.viwistar.com/) (Jun 2025 – Aug 2025) — [project page]({{ base_path }}/portfolio/ros2-vlm-inference/)
 
@@ -94,7 +94,7 @@ redirect_from:
 ## 教育经历
 
 * **硕士**，机械工程，上海交通大学机械与动力工程学院 · 2024 年 09 月 – 2027 年 03 月（预计）
-  * 导师：李潇教授 · 研究方向：足式机器人**强化学习**、**形态–控制协同设计**、**人形机器人 loco-manipulation**、实机部署
+  * 导师：李潇教授 · 研究方向：足式机器人**强化学习**、**形态–控制协同设计**、**人形机器人与物体交互**、实机部署
   * **GPA 3.79 / 4.0** · 专业排名 **26 / 274**
 * **学士**，机械工程，上海交通大学 · 2020 年 09 月 – 2024 年 07 月
 
@@ -117,9 +117,9 @@ redirect_from:
 
 ## 正在进行的工作
 
-**多人形机器人协作搬运** — 人形机器人 loco-manipulation · 2026 至今 — [项目详情]({{ base_path }}/portfolio/humanoid-collaborative-carrying/)
+**多人形机器人协作搬运** — 人形机器人与物体交互 · 2026 至今 — [项目详情]({{ base_path }}/portfolio/humanoid-collaborative-carrying/)
 
-* 研究多个人形机器人协作搬运与全身 loco-manipulation 协调控制。
+* 研究多个人形机器人与物体交互及协作搬运。
 
 **基于场景重建的机器人形态–运动协同设计** — 协同设计感知运动 · 2026 至今 — [项目详情]({{ base_path }}/portfolio/codesign-perceptive-locomotion/)
 
@@ -127,9 +127,9 @@ redirect_from:
 
 ## 实习经历
 
-**人形机器人 Loco-Manipulation 实习生** — [AGIbot 智元机器人](https://www.agibot.com/)（2026 年 6 月至今）
+**人形机器人与物体交互实习生** — [AGIbot 智元机器人](https://www.agibot.com/)（2026 年 6 月至今）
 
-* 从事人形机器人全身 loco-manipulation 研究，包括多人形机器人协作搬运。
+* 从事人形机器人与物体交互研究，包括多人形机器人协作搬运。
 
 **机器人感知实习生** — [Viwistar 慧智星晨](https://www.viwistar.com/)（2025 年 6 月 – 2025 年 8 月）— [项目详情]({{ base_path }}/portfolio/ros2-vlm-inference/)
 

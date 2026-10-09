@@ -1,8 +1,8 @@
 ---
 title: "Multi-Humanoid Collaborative Carrying"
 title_zh: "多人形机器人协作搬运"
-excerpt: "Whole-body loco-manipulation and coordination for multiple humanoid robots carrying shared payloads."
-excerpt_zh: "面向多人形机器人协作搬运的全身运动–操作协调控制研究。"
+excerpt: "Humanoid object interaction and coordination for multiple humanoid robots carrying shared payloads."
+excerpt_zh: "面向多人形机器人协作搬运的人形机器人与物体交互研究。"
 collection: portfolio
 permalink: /portfolio/humanoid-collaborative-carrying/
 header:
@@ -16,7 +16,7 @@ header:
 
 ## Overview
 
-This ongoing project studies **whole-body loco-manipulation for multiple humanoid robots** to collaboratively transport shared payloads. The work is inspired by [TeamHOI](https://github.com/sail-sg/TeamHOI) (CVPR 2026), which learns a single unified policy for cooperative human-object interaction across arbitrary team sizes.
+This ongoing project studies **humanoid object interaction across multiple humanoid robots** to collaboratively transport shared payloads. The work is inspired by [TeamHOI](https://github.com/sail-sg/TeamHOI) (CVPR 2026), which learns a single unified policy for cooperative human-object interaction across arbitrary team sizes.
 
 Building on this line of work, we are currently **deploying the algorithm on real humanoid robots** — pushing coordinated multi-humanoid carrying from simulation toward robust real-world performance.
 
@@ -35,7 +35,7 @@ Building on this line of work, we are currently **deploying the algorithm on rea
 
 ## 概述
 
-本项目正在进行中，研究**多人形机器人协作搬运**的全身 loco-manipulation 方法。工作受到 [TeamHOI](https://github.com/sail-sg/TeamHOI)（CVPR 2026）启发——该项目用单一统一策略实现了任意团队规模下的协作人-物交互。
+本项目正在进行中，研究**多人形机器人协作搬运**中的人形机器人与物体交互方法。工作受到 [TeamHOI](https://github.com/sail-sg/TeamHOI)（CVPR 2026）启发——该项目用单一统一策略实现了任意团队规模下的协作人-物交互。
 
 在此基础上，我们目前正在将该算法**部署到真实人形机器人**上，推动多人形协作搬运从仿真走向鲁棒的实机表现。
 
