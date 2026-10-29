@@ -192,6 +192,19 @@ I am actively seeking **Research Assistant / Intern** positions and plan to appl
     </div>
   </a>
 
+  <a class="exp-card" href="{{ base_path }}/portfolio/humanoid-motion-training/">
+    <div class="exp-thumb has-image">
+      <video autoplay muted loop playsinline preload="metadata" poster="{{ base_path }}/images/pushup.jpg" aria-label="Humanoid push-up motion demonstration" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <source src="{{ base_path }}/files/pushup.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="exp-body">
+      <div class="exp-title"><span class="lang-en">Variable-Speed Humanoid Motion Training</span><span class="lang-zh">可调速人形机器人动作训练</span></div>
+      <div class="exp-meta"><span class="lang-en">AGIbot · BeyondMimic + curriculum learning · 1–3× speed</span><span class="lang-zh">智元机器人 · BeyondMimic + 课程学习 · 1～3 倍速</span></div>
+      <span class="exp-tag intern"><span class="lang-en">Internship</span><span class="lang-zh">实习</span></span>
+    </div>
+  </a>
+
   <a class="exp-card" href="{{ base_path }}/portfolio/ros2-vlm-inference/">
     <div class="exp-thumb has-image" style="background-image:url('{{ base_path }}/images/intern_viwstar/preview.png');" data-placeholder=""></div>
     <div class="exp-body">
