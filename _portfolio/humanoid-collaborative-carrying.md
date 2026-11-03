@@ -9,6 +9,11 @@ header:
   teaser: agibotdemo_2robot.jpg
 ---
 
+## <span class="lang-en">Framework</span><span class="lang-zh">总体框架</span>
+
+<img src="{{ base_path }}/images/co-carry/framework.png" alt="Project framework" style="width:100%;height:auto;margin:1em 0;" />
+
+
 <video width="100%" controls playsinline preload="metadata" poster="{{ base_path }}/images/agibotdemo_2robot.jpg" style="max-width:720px;border-radius:6px;margin:1em 0;">
   <source src="{{ base_path }}/files/agibotdemo_2robot.mp4" type="video/mp4">
   Your browser does not support the video tag.

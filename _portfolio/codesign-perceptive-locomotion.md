@@ -6,8 +6,13 @@ excerpt_zh: "基于场景重建信息联合优化机器人形态与运动策略�
 collection: portfolio
 permalink: /portfolio/codesign-perceptive-locomotion/
 header:
-  teaser: co-design/20260818-111825.png
+  teaser: co-design/closed-loop-cover.png
 ---
+
+## <span class="lang-en">Framework</span><span class="lang-zh">总体框架</span>
+
+<img src="{{ base_path }}/images/co-design/framework.png" alt="Project framework" style="width:100%;height:auto;margin:1em 0;" />
+
 
 <div class="lang-en" markdown="1">
 

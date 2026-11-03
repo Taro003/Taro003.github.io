@@ -148,7 +148,7 @@ I am actively seeking **Research Assistant / Intern** positions and plan to appl
   </a>
 
   <a class="exp-card" href="{{ base_path }}/portfolio/codesign-perceptive-locomotion/">
-    <div class="exp-thumb has-image" style="background-image:url('{{ base_path }}/images/co-design/20260818-111825.png');" data-placeholder=""></div>
+    <div class="exp-thumb has-image" style="background-image:url('{{ base_path }}/images/co-design/closed-loop-cover.png');" data-placeholder=""></div>
     <div class="exp-body">
       <div class="exp-title">
         <span class="lang-en">Scene-Reconstruction-Based Morphology–Locomotion Co-Design</span>
